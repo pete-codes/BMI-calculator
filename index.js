@@ -17,6 +17,8 @@ app.post('/Calculate', function (req, res){
   aSquared = a*a;
   result = b/aSquared;
   result = Math.round(result * 100) / 100 //not sure if correct, trying to round
+
+
   res.send("<h1>" + result);
 });
 

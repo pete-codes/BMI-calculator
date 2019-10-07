@@ -1,0 +1,19 @@
+* {
+  font-family: sans-serif;
+}
+
+
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input[type=text] {
+  height:20px;
+}
+
+
+btn-primary {
+  color:black;
+  background-color: grey;
+}
